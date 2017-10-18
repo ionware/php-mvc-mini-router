@@ -1,8 +1,17 @@
 {
-  "autoload" : {
-    "psr-4" : {
-      "ehr\\" : "app",
-      "sys\\" : "system"
+    "name": "ionware/mini-router",
+    "description": "Simple Framework basically for routing webpages",
+    "keywords": ["framework", "MVC", "Router"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4"
+    },
+
+    "autoload" : {
+        "psr-4" : {
+         "ehr\\" : "app",
+         "sys\\" : "system"
     }
   }
 }
